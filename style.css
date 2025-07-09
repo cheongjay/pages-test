@@ -2,57 +2,107 @@
     list-style: none;
     text-decoration: none;
 }
-.test{
-    color: blue;
-    align-items: center;
+html {
+  scroll-behavior: smooth;
 }
-.project_role_selection{
-    display: inline-flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    width: 39px;
-    
+body{
+    font-family: 'Pretendard Variable', sans-serif;
 }
-
-.project_role_selection_container{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    font-size: 15px;
-    width: 100px;
-    height: 100px;
-}
-.project_container {
-  display: inline-flex;
-  justify-content: center; /* 가로 정렬 */
-  align-items: center; /* 세로 정렬 */
-}
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  margin: 10px;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     background-color: black;
     color:white;
-    height: 40px;
+    height: 60px;
 }
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+.menu-item {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover{
+    color: #bdf1f6;
+}
+
 button{
     border: 0;
     font-size: 16px;
     background-color: white;
     color: black;
     border-radius: 10px;
+}
+
+#projectTitle{
+    font-size: 20px;
+    font-weight : bold;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.section{
+  display: flex;
+  justify-content:baseline;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+.projectTech{
+    width: 10px;
+}
+#projectTechs{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: space-between;
+}
+#projectContainer {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#project {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 310px;
+  height: 154px;
+  background-color: #cbcbcb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#projects{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin-inline: 80px;
+    margin-block: 20px;
+}
+
+.skill{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#slogan{
+    margin: 40px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 50px;
 }

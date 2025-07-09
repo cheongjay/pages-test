@@ -7,46 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>권정주 portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 <body>
+    <script src="app.js"></script>
     <div class="header">
-        <a style="margin: 0 10px; font-size: 20px;"> 권정주 포트폴리오</a>
+        <a style="margin: 0 10px; font-size: 20px;"> Kwon-JungJoo</a>
         <ul class="menu">
-            <li style="margin: 0 10px;">About Me</li>
-            <li style="margin: 0 10px;">Projects</li>
+            <li style="margin: 0 10px;"><a class="menu-item" href="#about">About Me</a></li>
+            <li style="margin: 0 10px;"><a class="menu-item" href="#moveToProjects" >Projects</a></li>
             <button style="margin: 0 10px;"> Contact </button>
         </ul>
-        <!-- <a class="menu">
-                <a style="font-size: 20px;"> About Me </a>
-                <a style="font-size: 20px;"> Projects </a>
-                <button style="font-size: 20px; background-color: black; color:white;"> Contact </button>
-        </a> -->
+    </div>
+
+    <div style="display: flex; align-items: center; margin: 80px;">
+        <img width = "170"; height="170";>
+        <div id="slogan">슬로건</div>
+    </div>
+    
+    <section id="about"></section>
+    <hr>
+
+    <div style="margin-block:80px">
+        <div class="section">About Me</div>
+        <div style="margin-inline: 80px;">
+            <div style="font-weight: 550;">Education</div>
+            <div>(Mar 2025 ~ Present) 우리 FISAcademy 5기 클라우드 서비스 과정</div>
+            <div>(Mar 2021 ~ Expected Feb 2026) 중앙대학교 소프트웨어학부 B.Sc. in Computer Science and Engineering, Chung-Ang University</div>
+            <div>(Mar 2021 ~ Expected Feb 2026) 중앙대학교 유아교육과 B.Sc. in Early Childhood Education, Chung-Ang University</div>
+            
+            <p></p>
+            
+            <div style="font-weight: 550;">Experience</div>
+            <div>(2021 ~ Present) 중앙대학교 멋쟁이사자처럼 기획/디자인 13기</div>
+            
+            <p></p>
+
+            <div style="margin-bottom: 5px; font-weight: 550;">Language</div>
+            <div class="skill" style="background-color: #F7DF1E;">JavaScript</div>
+            <div class="skill" style="background-color: #007396;">Java</div>
+            <div class="skill" style="background-color: #00599C;">C/C++</div>
+            <div class="skill" style="background-color: #FFD43B;">Python</div>
+            <p></p>
+            <div style="margin-bottom: 5px;font-weight: 550;">Design</div>
+            <div class="skill" style="background-color: #F24E1E;">Figma</div>
+
+            <p></p>
+            
+            <div style="font-weight: 550;">Certificates</div>
+            <div>(Expected Feb 2026) 유치원 정교사 2급</div>
+            <div>(Expected Feb 2026) 보육교사 2급</div>
+            <p></p>
+            
+            <div style="font-weight: 550;">Awards</div>
+            <div>(2022) 교내 독서토론대회 최우수상</div>
+        </div>
+    </div>
+    
+
+    <hr>
+
+    <div style="margin-block:80px;">
+        <section id="moveToProjects"></section>
+        <div class="section">Projects</div>
+        <p></p>
+        <div id="projects">
+            <div id="project">
+                <div id ="projectTitle">PicTidy</div>
+                <div style="height: 24px;">Design </div>
+                <div id ="projectContainer">젠지들을 위한 사진 정리/공유 앱</div>
+            </div>
+        
+            <div id="project">
+                <div id ="projectTitle">프로젝트 제목</div>
+                <div style="height: 24px;">내 역할 Design, frontend,backend </div>
+                <div id ="projectContainer">프로젝트 내용 요약</div>
+            </div>
+        
+            <div id="project">
+                <div id ="projectTitle">프로젝트 제목</div>
+                <div style="height: 24px;">내 역할 Design, frontend,backend </div>
+                <div id ="projectContainer">프로젝트 내용 요약</div>
+            </div>
+        </div>
+    
+        <div id="projects">
+            <div id="project">
+                <div id ="projectTitle">프로젝트 제목</div>
+                <div style="height: 24px;">내 역할 Design, frontend,backend </div>
+                <div id ="projectContainer">프로젝트 내용 요약</div>
+            </div>
+        
+            <div id="project">
+                <div id ="projectTitle">프로젝트 제목</div>
+                <div style="height: 24px;">내 역할 Design, frontend,backend </div>
+                <div id ="projectContainer">프로젝트 내용 요약</div>
+            </div>
+        
+            <div id="project">
+                <div id ="projectTitle">프로젝트 제목</div>
+                <div style="height: 24px;">내 역할 Design, frontend,backend </div>
+                <div id ="projectContainer">프로젝트 내용 요약</div>
+            </div>
+        </div>
     </div>
 
     
-    <img width = "170"; height="170";>
-    <ul>
-        <li></li>
-    </ul>
-    <div>Projects</div>
-    <a class="project_role_selection">
-        <input type = "radio" name="projects" > 
-        <input type = "radio" name="projects" > 
-        <input type = "radio" name="projects">     
-    </a>
-    <div style="display: flex; align-items: center;">
-        <a class="project_role_selection_container">
-            <div style="height: 30px;">frontend</div>
-            <div>backend</div>
-            <div>design</div>
-        </a>
-    
-        <a class="project_container">
-            <div class="box"> </div>
-            <div class="box"></div>
-            <div class="box"></div>
+
+    <div style="margin-top: 50px; background-color: black; color: white; height: 60px; display: flex; justify-content: center; align-items: center; font-size: 20px;">
+        Kwon-JungJoo | wjdjoonim@gmail.com
+        <a href="https://github.com/cheongjay" target="_blank">
+            <i class="fab fa-github fa-2x" style="color: white; background: none; margin-inline:10px;"></i>
         </a>
     </div>
+
+    
 </body>
 </html>
